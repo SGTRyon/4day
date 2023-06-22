@@ -1,0 +1,44 @@
+
+
+ul{
+    list-style: none;
+    padding-left: 0px; 
+}
+
+.menu {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.menu > li {
+    width: 20%;
+    float: none;
+    text-align: center;
+    line-height: 60px;
+    background-color: #3951b3;
+    
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.submenu > li {
+    line-height: 50px;
+    background-color: #94a9ff;
+}
+
+.submenu{
+    display: none;
+}
+
+.menu > li:hover {
+    background-color: #94a9ff;
+    transition-duration: 0.7s;
+}
+
+.menu > li:hover .submenu {
+    display: block;    
+}
